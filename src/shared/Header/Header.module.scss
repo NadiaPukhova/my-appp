@@ -1,0 +1,34 @@
+@import '../../styles/variables.scss';
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+  margin-bottom: 30px;
+
+	.wrapper {
+		display: flex;
+		align-items: center;
+
+		.logo {
+			svg {
+				height: 65px;
+				width: 65px;
+			}
+		}
+
+		.title {
+			font-size: 25px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: $primary-color;
+		}
+
+		.change__theme,
+		.logo {
+			margin-right: 20px;
+      cursor: pointer;
+    }
+	}
+}
